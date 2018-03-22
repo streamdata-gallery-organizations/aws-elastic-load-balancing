@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteListener&k=1:
+  /?Action=DeleteListener:
     get:
       summary: ' Delete Listener '
       description: Deletes the specified listener
