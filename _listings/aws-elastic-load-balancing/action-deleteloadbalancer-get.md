@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteLoadBalancer&k=1:
+  /?Action=DeleteLoadBalancer:
     get:
       summary: ' Delete Load Balancer '
       description: Deletes the specified Application Load Balancer and its attached
