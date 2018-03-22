@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoadBalancers&k=1:
+  /?Action=DescribeLoadBalancers:
     get:
       summary: ' Describe Load Balancers '
       description: Describes the specified Application Load Balancers or all of your
