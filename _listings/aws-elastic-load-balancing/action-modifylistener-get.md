@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyListener&k=1:
+  /?Action=ModifyListener:
     get:
       summary: ' Modify Listener '
       description: Modifies the specified properties of the specified listener
