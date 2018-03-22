@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeListeners&k=1:
+  /?Action=DescribeListeners:
     get:
       summary: ' Describe Listeners '
       description: Describes the specified listeners or the listeners for the specified
