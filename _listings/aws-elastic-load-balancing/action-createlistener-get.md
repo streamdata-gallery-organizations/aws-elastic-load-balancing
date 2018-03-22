@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateListener&k=1:
+  /?Action=CreateListener:
     get:
       summary: ' Create Listener '
       description: Creates a listener for the specified Application Load Balancer
