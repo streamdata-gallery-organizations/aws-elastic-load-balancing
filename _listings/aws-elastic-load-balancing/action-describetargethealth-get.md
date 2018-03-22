@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTargetHealth&k=1:
+  /?Action=DescribeTargetHealth:
     get:
       summary: ' Describe Target Health '
       description: Describes the health of the specified targets or all of your targets
