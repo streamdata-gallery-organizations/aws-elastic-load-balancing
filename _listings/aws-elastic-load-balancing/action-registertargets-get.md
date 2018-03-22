@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterTargets&k=1:
+  /?Action=RegisterTargets:
     get:
       summary: ' Register Targets '
       description: Registers the specified targets with the specified target group
