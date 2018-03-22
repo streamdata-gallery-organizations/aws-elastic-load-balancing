@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetSubnets&k=1:
+  /?Action=SetSubnets:
     get:
       summary: ' Set Subnets '
       description: Enables the Availability Zone for the specified subnets for the
