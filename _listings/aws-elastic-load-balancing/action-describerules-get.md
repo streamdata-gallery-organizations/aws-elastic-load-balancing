@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeRules&k=1:
+  /?Action=DescribeRules:
     get:
       summary: ' Describe Rules '
       description: Describes the specified rules or the rules for the specified listener
