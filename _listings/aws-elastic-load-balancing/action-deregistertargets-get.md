@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterTargets&k=1:
+  /?Action=DeregisterTargets:
     get:
       summary: ' Deregister Targets '
       description: Deregisters the specified targets from the specified target group
