@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetRulePriorities&k=1:
+  /?Action=SetRulePriorities:
     get:
       summary: ' Set Rule Priorities '
       description: Sets the priorities of the specified rules
