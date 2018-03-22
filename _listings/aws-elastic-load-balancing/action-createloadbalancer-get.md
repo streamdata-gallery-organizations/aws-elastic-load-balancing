@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateLoadBalancer&k=1:
+  /?Action=CreateLoadBalancer:
     get:
       summary: ' Create Load Balancer '
       description: Creates an Application Load Balancer
