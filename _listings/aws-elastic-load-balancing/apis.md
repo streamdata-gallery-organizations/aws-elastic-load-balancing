@@ -16,10 +16,10 @@ description: Elastic Load Balancing automatically distributes incoming applicati
   services or load balance across multiple ports on the same EC2 instance.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Elastic Load Balancing
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-elastic-load-balancing/master/_listings/aws-elastic-load-balancing/apis.md
 specificationVersion: "0.14"
 apis:
